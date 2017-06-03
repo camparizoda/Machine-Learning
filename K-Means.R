@@ -24,9 +24,8 @@ plot(main="Plotting Sample", BP$HW, BP$WW, pch=20, col = km_BP$cluster, xlab="We
 par(new=TRUE)
 plot(BP$HM, BP$WM, pch=20, col = km_BP$cluster, xlab="Weight", ylab="Height", ylim=c(0,250), xlim = c(0, 150))
 
-# Plotting clusters in a different window
+# Plotting clusters 
 plot(main="Plotting K-Means Clusters", BP$HW, BP$WW, pch=20, col="black", xlab="Weight", ylab="Height", ylim=c(0,250), xlim = c(0, 150)) 
 par(new=TRUE)
 plot(BP$HM, BP$WM, pch=20, col="red", xlab="Weight", ylab="Height", ylim=c(0,250), xlim = c(0, 150))
-
 
